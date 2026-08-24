@@ -20,21 +20,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- 
-- 
-- 
--
--
--
--
--
--
--
--
--
--
--
--
+- Create Resource Groups in Azure
+- Create and join Virtual Machines to created Resource Group
 
 <h2>Deployment and Configuration Steps</h2>
 
