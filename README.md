@@ -93,14 +93,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 <p>
-<img width="1133" height="1020" alt="9HitNext" src="https://github.com/user-attachments/assets/4e2f9ce0-aa13-401c-b385-fd4adaf88945" />
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
 <img width="1111" height="1018" alt="10Checktheboxthatsaysrestartifrequiredandhitinstall" src="https://github.com/user-attachments/assets/59e04638-ed6a-4130-a16c-e25b6cf64f8c" />
 </p>
 <p>
