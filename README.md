@@ -72,7 +72,7 @@ Click next, and make sure the "role based" option is selected and click next.
 <img width="1121" height="1023" alt="6Thereshouldonlybveoneserverhitnext" src="https://github.com/user-attachments/assets/56884e0a-15a2-460b-bee9-0a1eaa1c2e1a" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+There should only be one option available in the server pool list. Make sure your server is selected and click next. 
 </p>
 <br />
 
@@ -80,7 +80,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1105" height="1019" alt="7Clicktheboxnexttoactivedirectoryservices" src="https://github.com/user-attachments/assets/f0f3469b-ba55-4c21-8b5c-d84102fdb10d" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In the next screen, check the box next to "Active Directory Domain Services" option. 
 </p>
 <br />
 
@@ -88,7 +88,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1177" height="1073" alt="8CCLickAddFeatures" src="https://github.com/user-attachments/assets/ebaf3372-6949-4d37-b3f0-a484c664b1ae" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Click on the "Add features box" to enable Active Directory Domain Services. Then click next. 
 </p>
 <br />
 
@@ -104,7 +104,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="2073" height="1017" alt="11Clicktheyellowflagandclickaddasdomaincontroller" src="https://github.com/user-attachments/assets/62e918f9-d7e0-4ea4-980d-855ba041281a" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+2222222222
 </p>
 <br />
 
