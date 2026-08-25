@@ -96,7 +96,7 @@ Click on the "Add features box" to enable Active Directory Domain Services. Then
 <img width="1111" height="1018" alt="10Checktheboxthatsaysrestartifrequiredandhitinstall" src="https://github.com/user-attachments/assets/59e04638-ed6a-4130-a16c-e25b6cf64f8c" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Click the box at the top to allow the process to restart the destination server if needed. Then click on install to install Active Directory. 
 </p>
 <br />
 
@@ -104,7 +104,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="2073" height="1017" alt="11Clicktheyellowflagandclickaddasdomaincontroller" src="https://github.com/user-attachments/assets/62e918f9-d7e0-4ea4-980d-855ba041281a" />
 </p>
 <p>
-2222222222
+Now that Active Directory is installed, in the Server Manager Dashboard click on the flag on the top right corner. Then click on "Promote this server to a domain controller". 
 </p>
 <br />
 
