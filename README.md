@@ -210,7 +210,7 @@ Once the properties tab is open, click on the "Member of" tab, and click on "Add
 <img width="1111" height="792" alt="25TypeinDomainAdminsAndClickCheckNamesThenOkayThenApplyAndOkay" src="https://github.com/user-attachments/assets/6025070b-4c46-4346-b42e-0edf93e7578c" />
 </p>
 <p>
-In the text box at the bottom of the "Select Groups" window, type in "Domain Admins", then click check names. Once the names are checked, click "okay" than "apply" and "ok". 
+In the text box at the bottom of the "Select Groups" window, type in "Domain Admins", then click check names. Once the names are checked, click "okay" than "apply" and "ok". Once thats completed, sign out of the account on the virtual machine. We will be logging into the newly created account. 
 </p>
 <br />
 
@@ -218,7 +218,7 @@ In the text box at the bottom of the "Select Groups" window, type in "Domain Adm
 <img width="494" height="587" alt="26LogIntoDC1AsJaneAdminAccountYouCreated" src="https://github.com/user-attachments/assets/01ef7672-e503-4c06-b6c7-4500990174ca" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Using the Domain Controller VM, remote into your newly created account. 
 </p>
 <br />
 
@@ -226,7 +226,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="423" height="273" alt="27OnceLoggedIntoJaneAdminAccountRemoteDesktopIntoCLIENT1VM" src="https://github.com/user-attachments/assets/0733493a-7189-498e-a895-91f6a512b694" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once you have remote connected to the Domain Controller Virtual Machine, you need to also log into the Client Virtual Machine. 
 </p>
 <br />
 
@@ -234,7 +234,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="634" height="723" alt="28RightClickStartbuttonAndClickSystem" src="https://github.com/user-attachments/assets/9475722f-df58-40d6-8120-8bed6dc47bdc" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once logged into the Client Machine, right click on the start button on the bottom left of the desktop. Then click on "System". 
 </p>
 <br />
 
@@ -242,7 +242,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1277" height="980" alt="29ClickRenameThisPCAdvancedontherightside" src="https://github.com/user-attachments/assets/bc72f337-d59b-4eb0-b886-997543756f71" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+With the "System" window open you should be at the "About" page. Here click on "Rename this PC (Advanced)" on the right side underneath "Related settings".  
 </p>
 <br />
 
@@ -250,7 +250,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1276" height="997" alt="30UnderCOmputerNameTabClickChange" src="https://github.com/user-attachments/assets/df8dd714-31c0-43e1-ad91-f6acddb7a95b" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In the "System Properties" window, click on the "Change" button. 
 </p>
 <br />
 
@@ -258,7 +258,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1234" height="976" alt="31enterthedomainyoucreatedinthislabitsmydomaincom" src="https://github.com/user-attachments/assets/0b337f76-027c-4cdf-bf4f-5086173482dc" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this new window, underneath "Member Of" click on "Domain". Then type in the domain you created. For this lab, I used mydomain.com. Once the domain is set, click on "OK". 
 </p>
 <br />
 
@@ -266,7 +266,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1233" height="962" alt="32LogIntoJaneAdminAccountWhenPrompted" src="https://github.com/user-attachments/assets/499f70d6-2e72-4640-90b0-d98599a8e22e" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Then we will log into the account we created in Active Directory. For this lab, I created the Jane_Admin account. So I would use mydomain.com\Jane_Admin to connect to the domain. 
 </p>
 <br />
 
@@ -274,7 +274,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1225" height="966" alt="33ShouldBeScucessful" src="https://github.com/user-attachments/assets/88ab2de4-4345-411a-90ac-288dd8935b55" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The change is completed. 
 </p>
 <br />
 
@@ -282,7 +282,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="865" height="756" alt="34InDC1GoToADUsers" src="https://github.com/user-attachments/assets/b019bc33-0591-41de-b4cf-2c0d2cc153a3" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once the domain has been changed, go back into "Active Directory Users and Computers". Type it into the windows search bar. 
 </p>
 <br />
 
@@ -290,7 +290,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1949" height="1066" alt="35ClickComputersinMyDomaiNAndYouCanseeTheClient1MachineWeAdded" src="https://github.com/user-attachments/assets/4e291b3e-3adf-4a54-9ad4-dd3b34dbe7c0" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Inside the "Active Directory Users and Computers" window, on the left side, click on "Computers". Here you should be able to see the Client Virtual Machine that we connected to the domain. 
+</p>
+<br />
+
+<p>
+Project End. 
 </p>
 <br />
 
