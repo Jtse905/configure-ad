@@ -112,7 +112,7 @@ Now that Active Directory is installed, in the Server Manager Dashboard click on
 <img width="1426" height="1017" alt="12UncheckDNSDelegationAndClickNextandnext" src="https://github.com/user-attachments/assets/a40e615d-2b0b-4247-98b2-8f1c9d4a0206" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Inside the box for "NetBIOS Domain Name" create your domain name. For this lab, I used mydomain.com. Once its named click next. 
 </p>
 <br />
 
@@ -122,7 +122,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Click next and next. 
 </p>
 <br />
 
@@ -130,7 +130,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1345" height="1014" alt="15installactivedirectory" src="https://github.com/user-attachments/assets/7c592cc9-08f7-4de6-b520-7872274a1054" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+When the perquisite check list passes, go ahead and click install. 
 </p>
 <br />
 
