@@ -43,10 +43,10 @@ The first step is to log into the Domain Controller Virtual Machine. Copy its pu
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="449" height="302" alt="2LogIntoDomainController" src="https://github.com/user-attachments/assets/e2a0b02e-8f27-4ad9-a7ce-4edabef9f4a2" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Using the Domain Controllers public IP address, connect to it remotely. 
 </p>
 <br />
 
