@@ -130,7 +130,7 @@ Click next and next.
 <img width="1345" height="1014" alt="15installactivedirectory" src="https://github.com/user-attachments/assets/7c592cc9-08f7-4de6-b520-7872274a1054" />
 </p>
 <p>
-When the perquisite check list passes, go ahead and click install. 
+When the perquisite check list passes, go ahead and click install. This will turn the Server into a domain controller. A restart will be required. 
 </p>
 <br />
 
@@ -138,7 +138,7 @@ When the perquisite check list passes, go ahead and click install.
 <img width="473" height="588" alt="16LogBackIntoDCAsDomaiNUser" src="https://github.com/user-attachments/assets/dfde1c2f-1bc2-4029-a763-cd4604af83e2" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once the Domain Controller VM is restarted, we will need to remote connect into it again. This time, we will log in with mydomain. So now the log in must be mydomain.com\Testuser1 (Whatever user you created before for the VM). 
 </p>
 <br />
 
@@ -146,7 +146,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1083" height="1247" alt="17OpenADUsersAndComouters" src="https://github.com/user-attachments/assets/1062eb6c-900d-401e-8189-ec64e0244d21" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once inside the Domain Controller VM, we will need to access "Active Directory Users And Computers". This will allow us to create accounts, groups, and organizations. 
 </p>
 <br />
 
@@ -154,7 +154,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1144" height="804" alt="18RightClickmyDomainAndClickNewThenOrganizaitonalUnit" src="https://github.com/user-attachments/assets/c7619f92-3fb2-4011-ac28-02bbb8c6073e" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once inside "Active Directory Users and Computers", on the left side right click on "Mydomain.com" (Whatever you named your domain). Click "new" than click on "Organizational Unit". 
 </p>
 <br />
 
@@ -162,7 +162,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1131" height="814" alt="19NameitUnderscoreEmployees" src="https://github.com/user-attachments/assets/a74b5608-9ef3-4e71-a3f5-7f3fdfb592d9" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We will name the new organizational unit "_EMPLOYEES". 
 </p>
 <br />
 
@@ -170,7 +170,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1132" height="791" alt="20CreateNewOUCalledUnderscoreAdmins" src="https://github.com/user-attachments/assets/baa2ee36-d1b5-4480-948f-81bdb35f32e2" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After you have created the "_EMPLOYEES" organizational unit, create another organizational unit called "_ADMINS".
 </p>
 <br />
 
@@ -178,7 +178,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1117" height="814" alt="21CreateNewUserInAdminGroupCalledJaneDoe" src="https://github.com/user-attachments/assets/edd76686-149c-43c0-88e6-6178abed70a4" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We will now create a user inside the _ADMIN group. On the left side underneath mydomain.com, click on the newly created "_ADMINS" group. In the white space to the right, right click and click on "new" than click on "user". 
 </p>
 <br />
 
@@ -186,7 +186,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1113" height="790" alt="22CreateJaneDoeAccount" src="https://github.com/user-attachments/assets/e0630f3f-054f-4287-98ff-29ee52e4b441" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+For this lab I created a user called "Jane Doe". 
 </p>
 <br />
 
@@ -194,7 +194,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1106" height="789" alt="23RightClickJaneDoeAndCLickProperties" src="https://github.com/user-attachments/assets/0346bbb2-e1d1-462c-a081-a5396357c7e0" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once the user is created, right click on the new user account and click on "properties". 
 </p>
 <br />
 
@@ -202,7 +202,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1114" height="771" alt="24GoToMemberOfAndClickAdd" src="https://github.com/user-attachments/assets/c5bf01ca-59ff-4550-b2ca-c0a417568e76" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once the properties tab is open, click on the "Member of" tab, and click on "Add". 
 </p>
 <br />
 
@@ -210,7 +210,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img width="1111" height="792" alt="25TypeinDomainAdminsAndClickCheckNamesThenOkayThenApplyAndOkay" src="https://github.com/user-attachments/assets/6025070b-4c46-4346-b42e-0edf93e7578c" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In the text box at the bottom of the "Select Groups" window, type in "Domain Admins", then click check names. Once the names are checked, click "okay" than "apply" and "ok". 
 </p>
 <br />
 
